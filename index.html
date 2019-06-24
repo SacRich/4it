@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="portoflio">
+    <meta name="keywords" content="portfolio">
+     <meta name="theme-color" content="#204459"/>
+    <link href="https://fonts.googleapis.com/css?family=Coda|Roboto" rel="stylesheet">
+    <!-- <link href="images/Grepton_icon_s.png" rel="icon"/> -->
+    <title>4it Kft.</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Francois+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i%7cMontserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Style -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js "></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js "></script>
+    <script src="js/Respond-master/dest/respond.min.js"></script>
+    <script src="js/html5shiv-master/dist/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <img class="logo" src="images/4itlogo.png" />
+                <li><a href="#home">Főoldal</a></li>
+                <li><a href="#solutions">Kompetenciáink</a></li>
+                <li><a href="#products">Termékeink</a></li>
+                <li><a href="#about">Magunkról</a></li>
+                <li><a href="#contact">Kapcsolat</a></li>
+                <div class="barcontainer" onclick="mobilenav(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+                </div>
+            </ul>
+        </div>
+        <div id="mobilenav" class="mobilenav hidden">
+                <ul>
+                    <li><a href="#home">Főoldal</a></li>
+                    <li><a href="#solutions">Kompetenciáink</a></li>
+                    <li><a href="#products">Termékeink</a></li>
+                    <li><a href="#about">Magunkról</a></li>
+                    <li><a href="#contact">Kapcsolat</a></li>
+                </ul>
+            </div>
+        <h3 class="greptontitle">4it Kft</h3>
+        <div id="content">
+            <div id="home" title="home">
+                <div id="carousel">
+                    <div class="big">
+                        <img class="mySlides" src="https://picsum.photos/1980/568" alt="grepton delivers true bussiness value">
+                        <!-- <img class="mySlides" src="images/carusel_B_hun.jpg" alt="We are diverse">
+                        <img class="mySlides" src="images/carusel_C_hun.jpg" alt="We are in the future"> -->
+                    </div>
+                    <!-- <div class="small">
+                        <img class="mySlides2" src="images/carusel_A_hun_s.jpg" alt="grepton delivers true bussiness value">
+                        <img class="mySlides2" src="images/carusel_B_hun_s.jpg" alt="Grepton is diverse">
+                        <img class="mySlides2" src="images/carusel_C_hun_s.jpg" alt="We are walking in the future">
+                    </div> -->
+                </div>
+                <div class="btnwrap" >
+                    <button class="button contactbtn" onclick="">Vegye fel velünk a kapcsolatot!</button>
+                </div>
+                <div class="wrapper" >
+                    <div class="leftgridcolumn" >
+                        <img src="https://picsum.photos/80/120" alt="icon-badge quality" />
+                        <h3>Kiszámíthatóság</h3>
+                        <p>Munkatársaink több éves, magas színvonalú tapasztalatára alapozva precízen tervezett, dokumentált IT szolgáltatásokat nyújtunk partnereinknek. Kompetencia területeinken folyamatos képzéseken veszünk részt, működési folyamataink átláthatóak, ISO minősítéssel rendelkeznek.</p>
+                    </div>
+                    <div class="middlegridcolumn">
+                        <img src="https://picsum.photos/80/120" alt="Hololens, modern technologies" />
+                        <h3>Szolgáltatásorientáltság</h3>
+                        <p>Közvetett értéket teremtünk a szolgáltatások SLA alapú támogatásával. Ügyfeleink hiba, igény bejelentéseit ITIL alapú ServiceDesk rendszerünkön keresztül kezeljük, automatikus riport lehetőséget biztosítunk.</p>
+                    </div>
+                    <div class="rightgridcolumn">
+                        <img src="https://picsum.photos/80/120" alt="Unique applications"/>
+                        <h3>Megbízhatóság</h3>
+                        <p>Munkánkat az elvárásoknak megfelelően végezzük, eleget téve adott audit szempontoknak. Határidők, projekt terv mérföldköveinek betartására fokozottan ügyelünk. Adatbiztonságot szem előtt tartva dolgoznak kollégáink.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="solutions">
+                <h1>Kompetenciáink</h1>
+                <div class="solutionGrid" >
+                    <div class="tile a">
+                        <div class="imghold"><img src="https://picsum.photos/200/200" alt="solutions bigdata" ></div>
+                        <div class="desc">
+                            <h5>Microsoft Dynamics NAV</h5>
+                            <p>Microsoft Dynamics alapú üzleti megoldások, kkv szegmensben</p>
+                            <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                        </div>
+                    </div>
+                    <div class="tile b" id="fd">
+                        <div class="imghold" ><img src="https://picsum.photos/200/200" alt="Hololens, development, solutions"  ></div>
+                        <div class="desc">
+                            <h5>Microsoft Dynamics AX</h5>
+                            <p>Microsoft Dynamics alapú üzleti megoldások, nagyvállalati szegmensben</p>
+                            <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                        </div>
+                    </div>
+                    <div class="tile c">
+                        <div class="imghold"><img src="https://picsum.photos/200/200" alt="Solutions for companies" ></div>
+                        <div class="desc">
+                            <h5>System Center</h5>
+                            <p>Adatközpont integráció és menedzsment</p>
+                            <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                        </div>
+                    </div>
+                    <div class="tile d">
+                        <div class="desc">
+                            <h5>Rendszerintegráció</h5>
+                            <p>Széles körű IT vonatkozású feladatok végrahajtását vállaljuk, a zöld mezős alapinfrastruktúra kialakításától az összetett, több rendszert érintő, alkalmazás- és adatmigrációig. </p>
+                            <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                        </div>
+                        <div class="imghold"><img src="https://picsum.photos/200/200" alt="System integration solutions" ></div>
+                    </div>
+                    <div class="tile e">
+                        <div class="desc">
+                            <h5>Big data megoldások</h5>
+                            <p></p>
+                            <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                        </div>
+                        <div class="imghold"><img src="https://picsum.photos/200/200" alt="Communication" ></div>
+                    </div>
+                    <div class="tile f">
+                        <div class="desc">
+                            <h5>CRM online</h5>
+                            <p></p>
+                            <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                        </div>
+                        <div class="imghold"><img src="https://picsum.photos/200/200" alt="geoinformatics and area analysis" ></div>
+                    </div>
+                    <!--Second grid -->
+                    <div class="tile g">
+                            <div class="imghold"><img src="https://picsum.photos/200/200" alt="solutions bigdata" ></div>
+                            <div class="desc">
+                                <h5>Office 365</h5>
+                                <p></p>
+                                <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                            </div>
+                        </div>
+                        <div class="tile h">
+                            <div class="imghold" ><img src="https://picsum.photos/200/200" alt="Hololens, development, solutions"  ></div>
+                            <div class="desc">
+                                <h5>Üzemeltetés és támogatás</h5>
+                                <p></p>
+                                <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                            </div>
+                        </div>
+                        <div class="tile i">
+                            <div class="imghold"><img src="https://picsum.photos/200/200" alt="Solutions for companies" ></div>
+                            <div class="desc">
+                                <h5>Outsourcing</h5>
+                                <p></p>
+                                <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                            </div>
+                        </div>
+                        <div class="tile j">
+                            <div class="desc">
+                                <h5>Tanácsadás</h5>
+                                <p></p>
+                                <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                            </div>
+                            <div class="imghold"><img src="https://picsum.photos/200/200" alt="System integration solutions" ></div>
+                        </div>
+                        <div class="tile k">
+                            <div class="desc">
+                                <h5>IT infrastruktúra audit</h5>
+                                <p></p>
+                                <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                            </div>
+                            <div class="imghold"><img src="https://picsum.photos/200/200" alt="Communication" ></div>
+                        </div>
+                        <div class="tile l">
+                            <div class="desc">
+                                <h5>Hardver és licence szállítás</h5>
+                                <p></p>
+                                <a href="subtemplate.html"> &gt; Részletek &lt; </a>
+                            </div>
+                            <div class="imghold"><img src="https://picsum.photos/200/200" alt="geoinformatics and area analysis" ></div>
+                        </div>
+                </div>
+            </div>
+            <div id="products">
+                <!-- <h1>Termékeink</h1> -->
+                <!-- <div class="actualdiv">
+                    <h2 class="texth2"></h2>
+                    <p>Ha valamelyik nyitott pozíciónk felkeltette az érdeklődésedet, várjuk <a href="#contact">jelentkezésedet</a>!</p>
+                    <p>Nem pont ezt keresed? Akkor is bátran küldd el pályázati anyagodat „általános jelentkezés” tárggyal a <a href"job@grepton.hu">job@grepton.hu</a> e-mail címre, mert lehet, hogy épp Te hiányzol ahhoz, hogy teljes legyen a csapat!</p>
+                </div> -->
+            </div>
+            <h1>Termékeink</h1>
+            <div class="jobs">
+                
+                <div class="jobwrapper">
+                    <div class="columngrid">
+                        <h3>Advanced portal for SCSM 2012</h3>
+                        <!-- <div class="pwrap">
+                        <p>Részvétel a tesztelési módszerek és folyamatok fejlesztésében</p>
+                        <p>Funkcionális tesztelés</p>
+                        <p>Szoros együttműködés a fejlesztőkkel</p>
+                        </div> -->
+                         <button class="button detailbtn" >Részletek </button>
+                    </div>
+                    <div class="columngrid">
+                        <h3>SCSM Add-ons</h3>
+                        <!-- <div class="pwrap">
+                        <p>Szerver és/vagy kliens oldali fejlesztés</p>
+                        <p>.NET 4.0/4.5, WCF ismerete</p>
+                        <p>MS SQL Szerver 2012/2014/2016 ismerete</p>
+                        </div> -->
+                        <button class="button detailbtn" >Részletek</button>
+                        <!--<button class="button actionbtn" >Miért jó nálunk dolgozni?</button>-->
+                    </div>
+                    <div class="columngrid">
+                        <h3>The Guard keretrendszer</h3>
+                        <!-- <div class="pwrap">
+                        <p>Részvétel az ájánlattételi és szerződéskötési folyamatban</p>
+                        <p>Ügyfél kapcsolattartás, megbeszélések megszervezése</p>
+                        <p>Fejlesztői csapat feladatok menedzselése</p>
+                        </div> -->
+                        <button class="button detailbtn" >Részletek </button>
+                    </div>
+                    <!-- <div class="columngrid g">
+                        <h3>Junior SQL fejlesztő</h3>
+                        <div class="pwrap">
+                        <p>Adattárház rendszerek fejlesztési és támogatási tevékenységének ellátása</p>
+                        <p>Ügyfél kapcsolattartás, megbeszélések megszervezése</p>
+                        <p>Fejlesztői csapat feladatok menedzselése</p>
+                        </div>
+                        <button class="button detailbtn" >Részletek és jelentkezés</button>
+                    </div> -->
+                </div>
+            </div>
+            <div id="about">
+                    <h1>Magunkról</h1>
+                    
+                    <!-- <div class="imgwrap">
+                        <img src="images/ppl/office_off_left.jpg" alt="Grepton office, and people playing">
+                        <img src="images/ppl/office_off_right.jpg" alt="Grepton office and our freetime activites" >
+                    </div> -->
+                </div>
+                <div  class="carousel slider">
+                        <div class="about slide">
+                            <h3>Cégtörténet</h3>
+                            <p>A 4IT Kft. jogelődje 2005-ben alakult és sikeresen foglalkozott mérnöki-, tervezési szolgáltatásokkal. Folyamatosan nyereséges üzletmenet mellett 2011. januárjában a 4IT életében jelentős változás történt. A tulajdonosváltás mellett átalakult a cég tevékenysége és az informatikai szolgáltatásokra helyeződött a hangsúly. A profilváltás gördülékennyé tétele érdekében az infokommunikációs technológiák piacán sokéves tapasztalattal rendelkező menedzsment és szakember gárda került a cég kötelékébe. Egymással harmonizáló üzletágak és szolgáltatási elemek kerültek kialakításra.</p>
+                        </div>
+                        <!-- <div class="slide1 slide">
+                            <img class="roundimg" src="images/ppl/istvan.jpg" alt="Our college, István" >
+                            <p>Frissdiplomásként nagyszerű lehetőség adódott a szoftverfejlesztői szakma gyakorlati megismerésére a Grepton Akadémia keretein belül. A három hónapos elméleti és gyakorlati képzés során megismertük egy szoftver készítésének fázisait a tervezéstől egészen a késztermék átadásáig. Az Akadémia sikeres elvégzése után aztán munkalehetőséget kaptam, és örömmel csatlakoztam a Grepton szakmai csapatához, ahol tapasztalt kollégák segítették az elsajátított tudás továbbfejlesztését a valós életben is. Ma már senior fejlesztőként veszek részt projektjeinkben, de 10 év távlatából is jó visszaemlékezni erre az időszakra.<br> - István, IT szakértő</p>
+                        </div> -->
+                        <!--<div class="slide2 slide" >
+                            <img class="roundimg" src="images/ppl/Vera.jpg">
+                            <p>Milyen egy ideális munkahely? Ahol jól érzed magad, kellemes a környezet, kedvesek a munkatársak. Ez a Greptonról elmondható, sőt, a rugalmas munkavégzés, a megbecsülés és a sok plusz szolgáltatás (nyelvtanulási lehetőség, biliárd, csocsó, masszázs) még vonzóbbá teszik a munkahelyem. A cég méretéből adódóan elég nagy ahhoz, hogy a szakma széles spektrumát megtanulhassam, de annyira nem nagy, hogy személytelenné váljon, a vezetőség hozzáállásának köszönhetően pedig az egyéni igények is meghallgatásra találnak.<br> - Vera, projektmenedzser</p>
+                        </div>
+                        <div class="slide3 slide">
+                            <img class="roundimg" src="images/ppl/Arckep_MZ-1.png">
+                            <p>20 éves vezetői tapasztalatom során megtanultam értékelni a kollégák egyéni képességeit és értékeit, és arra törekszem, hogy ezen egyéni értékekből a lehető legjobb csapatot sikerüljön összekovácsolni. A Greptonnál eltöltött eddigi 3 év meggyőzött arról, hogy az itt meglévő remek csapat szakmailag és emberileg is megérdemli a törődést. Egyszerűen szeretek velük dolgozni, és ezt a pozitív visszatükröződést látom kollégáimon is. Nálunk görcsös feszülés helyett szakmai kihívások vannak, amelyeket általában közösen, kisebb-nagyobb csapatokban oldunk meg. Amit nálunk az ügyfeleink és belépő kollégáink első benyomásra tapasztalnak az nem a kirakat verzió; mi egyszerűen szeretünk könnyedén, ugyanakkor magas szakmai színvonalon dolgozni.<br> - Zoltán, vezérigazgató</p>
+                        </div>-->
+                    </div>
+            <!-- <div id="kfi">
+                <h1>Kutatás-fejlesztés-innováció</h1>
+                <div class="wrapper">
+                    <div class="columngrid">
+                        <strong>Hololens, kiterjesztett valóság alkalmazások fejlesztése</strong>
+                        <p>Virtuális, kiterjesztett és vegyített valóság technológiák kutatása, fejlesztése</p>
+                        <img class="tamogatok">
+                    </div>
+                    <div class="columngrid">
+                        <strong>Humán vizsgálatokra alkalmas sapka sorozatgyártása</strong>
+                        <p>GOP-1.1.1-11-2012-0067 pályázat<br>Támogató:</p>
+                        <img class="tamogatok" src="" >
+                    </div>
+                    <div class="columngrid">
+                        <strong>Betegség előrejelzés és innováció</strong>
+                        <p>KMOP-1.1.1-09/1-2009-0048 pályázat<br>Támogató:</p>
+                        <img class="tamogatok">
+                    </div>
+                </div>
+            </div> -->
+            
+                    
+            <!-- <div id="specialities">
+                <h1>Szakterületek</h1>
+                <p>Adatbázis tartalom fejlesztések, Java alapú fejlesztések, MS alapú fejlesztések, Kutatás-fejlesztés-innováció, Rendszer támogatás</p>
+                <img id="szakag" src="images/Szakagak_6.png" alt="the areas we specialize in">
+            </div> -->
+            <!-- <div id="sometext">
+                <strong>Ha munka közben kicsit lemerülünk, akkor főzünk magunknak egy jó erős kávét vagy teát, aztán kihívunk valakit egy meccsre, amíg be nem indul a következő biliárd-, csocsó-, vagy xbox bajnokság. És mivel tudjuk, hogy szerdára már elmúlik a hétvége áldásos hatása, de messze még a péntek, ilyenkor feltankolunk gyümölccsel, sőt, ekkor érkezik szuper masszőrünk is. Van, hogy céges reggelit tartunk, máskor társasjáték estet, de szurkoltunk már együtt a magyar válogatottnak is a tévé előtt – nekünk így kerekek a Greptonos mindennapok.</strong>
+                <img src="">
+            </div>
+            <div class="imgwrap">
+                    <img class="bigimg" src="images/Programs_imageline_6_2.jpg" alt="Grepton office, and people playing">
+                    <img class="bigimg" src="images/Programs_imageline_6_3.jpg" alt="Grepton office and our freetime activites" >
+                    <img class="minimg" src="images/Programs_imageline_6_1.jpg" alt=""/> 
+                </div> -->
+            <div id="partners">
+                <h2>Partnereink</h2>
+                <div id="partnergrid">
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_allianz.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/LogosDouble_AegonEgis_egis_aegon.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_SmartComm.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_telenor.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_mvm.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_BKK.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_T.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_egis.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/LogosDouble_Voda.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_evosoft.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_sb.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/LogosDouble_NIF.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_MS-1.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_oracle-1.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_mcafee-2.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_Quest.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_IBM-1.png" />
+                    </div>
+                    <div>
+                        <img class="partnerimg" src="images/partners/Logos_esri-1.png" />
+                    </div>
+                </div>
+            </div>
+            <h1>Kapcsolat</h1>
+            <div id="contact">
+                    <div class="contactflex">
+                        <p>Felkeltettük érdeklődését? Vegye fel velünk a kapcsolatot az alábbi elérhetőségek valamelyikén:</p>
+                        <p>Címeink:</p>
+                        <p>Központi telephely, értékesítés, tanácsadás: H-1087 Budapest, Könyves Kálmán krt. 48-52.</p>
+                        <p>Székhely, központi adminisztráció: H-1116 Budapest, Kondorfa utca 10.</p>
+                    </div>
+                    <div class="contactflex">
+                        <p>Elérhetőségeink:</p>
+                        <p>Telefon: +36 1 781 3560</p>
+                        <p>FAX: +36 1 799 0780</p>
+                    </div>
+                
+            </div>
+            <div id="map">
+                
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+    <script src="js/main.js"></script>
+</html>
